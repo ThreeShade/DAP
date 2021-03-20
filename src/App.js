@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './Components/Header/Header'
+import Footer from './Components/Footer/Footer';
+import Transports from './Components/Transports/Transports';
+import HeroSection from './Components/HeroSection/HeroSection';
+import Benefit from './Components/Benefit/Benefit';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Header />
+      <HeroSection />
+      <Transports />
+      <Benefit />
+      <Footer />
+    </>
+  )
 }
 
-export default App;
+export default App

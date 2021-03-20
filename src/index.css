@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: 'acquireB';
+  src: url('./assets/Fonts/Aquire-BW0ox.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'acquireBold';
+  src: url('./assets/Fonts/AquireBold-8Ma60.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'acquireLight';
+  src: url('./assets/Fonts/AquireLight-YzE0o.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
