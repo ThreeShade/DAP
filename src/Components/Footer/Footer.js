@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
+import "./Footer.css"
 function Footer() {
     return (
         <>
@@ -9,20 +10,23 @@ function Footer() {
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="footer__about">
                                 <div class="footer__logo">
-                                    <a href="#"><img
-                                        src="./Freight-Broker _ Template_files/footer-logo.webp" alt="" /></a>
+                                    <h3 style={{ display: "flex", fontFamily: "acquireBold", fontSize: "40px", color: "#ffa62b" }}>
+                                        DELUX
+                                            <span style={{ fontSize: "14px", color: "white", fontFamily: "acquireLight", display: "flex", flexDirection: "column", justifyContent: "center", marginLeft: "10px" }}>
+                                            <span>ABROAD</span><span>PACKERS</span>
+                                        </span></h3>
                                 </div>
                                 <p>Consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua. Quis ipsum
                                 suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
                         </p>
                                 <div class="footer__social">
-                                    <a href="#"><span
-                                        class="social_facebook"></span></a>
-                                    <a href="#"><span
+                                    <Link to="#a"><span
+                                        class="social_facebook"></span></Link>
+                                    <a href="#a"><span
                                         class="social_twitter"></span></a>
-                                    <a href="#"><span
+                                    <a href="#a"><span
                                         class="social_linkedin"></span></a>
-                                    <a href="#"><span
+                                    <a href="#a"><span
                                         class="social_pinterest"></span></a>
                                 </div>
                             </div>
@@ -31,12 +35,12 @@ function Footer() {
                             <div class="footer__widget">
                                 <h5>Quick links</h5>
                                 <ul>
-                                    <li><a href="#">History</a></li>
-                                    <li><a href="#">Our Staff</a>
+                                    <li><a href="#a">History</a></li>
+                                    <li><a href="#a">Our Staff</a>
                                     </li>
-                                    <li><a href="#">Our Partners</a>
+                                    <li><a href="#a">Our Partners</a>
                                     </li>
-                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#a">Blog</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -44,13 +48,13 @@ function Footer() {
                             <div class="footer__widget">
                                 <h5>Services</h5>
                                 <ul>
-                                    <li><a href="#">Air Shipping</a>
+                                    <li><a href="#a">Air Shipping</a>
                                     </li>
-                                    <li><a href="#">Expert Staff</a>
+                                    <li><a href="#a">Expert Staff</a>
                                     </li>
-                                    <li><a href="#">Ground
+                                    <li><a href="#a">Ground
                                     Shipping</a></li>
-                                    <li><a href="#">Logistic
+                                    <li><a href="#a">Logistic
                                     Services</a></li>
                                 </ul>
                             </div>
@@ -84,5 +88,4 @@ function Footer() {
         </>
     )
 }
-
 export default Footer
