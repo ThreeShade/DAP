@@ -1,5 +1,6 @@
 {
-  "name": "delux",
+  "name": "DeluxeAbroadCouriers",
+  "homepage": "http://deluxeabroadcouriers.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
