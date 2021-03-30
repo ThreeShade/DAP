@@ -100,7 +100,7 @@
 }
 .header__logo {
   position: relative;
-  padding: 59px 0 58px;
+  padding: 59px 0 39px;
   margin-top: -44px;
   z-index: 1;
 }
@@ -121,8 +121,9 @@
   display: inline-block;
 }
 .header__menu {
-  padding: 32px 0;
+  padding-top: 32px;
   padding-left: 25px;
+  margin-top: 10px;
 }
 .header__menu ul li {
   list-style: none;
@@ -187,6 +188,9 @@
 }
 .slicknav_menu ::marker {
   text-decoration: none !important;
+}
+.offcanvas__logo{
+  margin-bottom: 30px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1449px) {
   .header__logo:after {
@@ -312,7 +316,7 @@
     display: inline-block;
   }
   .offcanvas__social a {
-    font-size: 14px;
+    font-size:20px;
     color: #fff;
     display: inline-block;
     margin-right: 14px;
@@ -339,7 +343,7 @@
     color: #111;
     height: 35px;
     width: 35px;
-    line-height: 37px;
+    line-height: 60px;
     text-align: center;
     border-radius: 2px;
     cursor: pointer;
@@ -459,7 +463,7 @@
     display: inline-block;
   }
   .offcanvas__social a {
-    font-size: 14px;
+    font-size: 18px;
     color: #fff;
     display: inline-block;
     margin-right: 14px;

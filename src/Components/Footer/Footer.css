@@ -19,7 +19,7 @@
   padding-top: 70px;
 }
 .footer__logo {
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
 .footer__logo a {
   display: inline-block;
@@ -55,14 +55,15 @@
 .footer__widget h5 {
   color: #fff;
   text-transform: uppercase;
-  margin-bottom: 35px;
+  margin-bottom: 16px;
+  margin-top: 10px;
 }
 .footer__widget ul.address li {
   line-height: normal;
   font-size: 14px;
   font-weight: 500;
   color: #9caaaf;
-  margin-bottom: 22px;
+  margin-bottom: 10px;
 }
 .footer__widget ul.address li:last-child {
   margin-bottom: 0;
@@ -137,5 +138,8 @@
 @media only screen and (max-width: 767px) {
   .footer__about:after {
     display: none;
+  }
+  .footer__logo{
+    margin-bottom: 10px;
   }
 }

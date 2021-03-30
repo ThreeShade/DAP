@@ -14,33 +14,23 @@ function Footer() {
                                         DELUX
                                             <span style={{ fontSize: "14px", color: "white", fontFamily: "acquireLight", display: "flex", flexDirection: "column", justifyContent: "center", marginLeft: "10px" }}>
                                             <span>ABROAD</span><span>PACKERS</span>
-                                        </span></h3>
+                                        </span>
+                                    </h3>
                                 </div>
-                                <p>Consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua. Quis ipsum
-                                suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-                        </p>
-                                <div class="footer__social">
-                                    <Link to="#a"><span
-                                        class="social_facebook"></span></Link>
-                                    <a href="#a"><span
-                                        class="social_twitter"></span></a>
-                                    <a href="#a"><span
-                                        class="social_linkedin"></span></a>
-                                    <a href="#a"><span
-                                        class="social_pinterest"></span></a>
-                                </div>
+                                <p>
+                                    Consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua. Quis ipsum
+                                    suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                </p>
                             </div>
                         </div>
                         <div class="col-lg-2 offset-lg-1 col-md-6 col-sm-6">
                             <div class="footer__widget">
                                 <h5>Quick links</h5>
                                 <ul>
-                                    <li><a href="#a">History</a></li>
-                                    <li><a href="#a">Our Staff</a>
-                                    </li>
-                                    <li><a href="#a">Our Partners</a>
-                                    </li>
-                                    <li><a href="#a">Blog</a></li>
+                                    <li><Link to="#a">Services</Link></li>
+                                    <li><Link to="#a">Branches</Link></li>
+                                    <li><Link to="#a">About us</Link></li>
+                                    <li><Link to="#a">Contact</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -48,14 +38,10 @@ function Footer() {
                             <div class="footer__widget">
                                 <h5>Services</h5>
                                 <ul>
-                                    <li><a href="#a">Air Shipping</a>
-                                    </li>
-                                    <li><a href="#a">Expert Staff</a>
-                                    </li>
-                                    <li><a href="#a">Ground
-                                    Shipping</a></li>
-                                    <li><a href="#a">Logistic
-                                    Services</a></li>
+                                    <li><Link to="#a">Air Shipping</Link></li>
+                                    <li><Link to="#a">Expert Staff</Link></li>
+                                    <li><Link to="#a">Ground Shipping</Link></li>
+                                    <li><Link to="#a">Logistic Services</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -76,8 +62,9 @@ function Footer() {
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <div class="footer__copyright__text">
-                                    <p>Copyright ©
-                                    2021 All rights reserved | Delux Abroad Packers
+                                    <p>
+                                        Copyright ©
+                                        2021 All rights reserved | Delux Abroad Packers
                                     </p>
                                 </div>
                             </div>
