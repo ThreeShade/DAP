@@ -44,8 +44,7 @@
 }
 .home-title {
   font-family: 'robotoMedium';
-  font-size: 40px;
-  font-weight: bold;
+  text-transform: uppercase;
 }
 .bb {
   border-bottom: 1px solid #000;
@@ -67,6 +66,8 @@
   font-size: 20px;
   font-family: robotoRegular;
   text-transform: uppercase;
+  overflow: hidden;
+  padding: 15px 0;
 }
 .country-grp {
   display: flex;
@@ -74,12 +75,60 @@
   align-items: center;
   justify-content: space-between;
   height: fit-content;
-  width: 15%;
   padding: 10px;
   font-size: 14px;
+  margin: 0 15px;
+  font-weight: bold;
 }
-.country-grp img {
+.c-flag {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+}
+.features-section {
+  margin: 2% 0;
   width: 100%;
-  height: 100%;
-  margin-bottom: 10px;
+  height: 15vh;
+  border-radius: 25rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-family: 'robotoRegular';
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  background-image: linear-gradient(
+    to top,
+    #1e3c72 0%,
+    #1e3c72 1%,
+    #2a5298 100%
+  );
+}
+.whatsapp-gif {
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+}
+
+@media only screen and (max-width: 520px) {
+  .c-flag {
+    width: 60px;
+    height: 60px;
+  }
+  .home-title h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .export-content {
+    height: 85%;
+  }
+  .features-section {
+    height: 10vh;
+    font-size: 0.75rem;
+  }
 }

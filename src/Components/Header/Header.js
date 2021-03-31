@@ -20,7 +20,7 @@ function Header() {
                     <span class="icon_search search-switch"></span>
                 </div> */}
                 <div class='offcanvas__logo'>
-                    <Link href='sdf#'>
+                    <Link to='/'>
                         <h4
                             style={{
                                 fontFamily: 'acquireB',
@@ -60,19 +60,19 @@ function Header() {
                             <ul style={{ listStyle: 'none' }}>
                                 <li style={{ color: '#FFA62B', marginBottom: '10px' }}>MENU</li>
                                 <li class='active'>
-                                    <Link href=' dgs#'>Home</Link>
+                                    <Link to='/'>Home</Link>
                                 </li>
                                 <li>
-                                    <Link href='#s'>Services</Link>
+                                    <Link to='/'>Services</Link>
                                 </li>
                                 <li>
-                                    <Link href='#s'>About</Link>
+                                    <Link to='/'>About</Link>
                                 </li>
                                 <li>
-                                    <Link href='#a'>Branches</Link>
+                                    <Link to='/Branches'>Branches</Link>
                                 </li>
                                 <li>
-                                    <Link href='#a'>Contacts Us</Link>
+                                    <Link to='/'>Contacts Us</Link>
                                 </li>
                             </ul>
                         </nav>
@@ -88,16 +88,16 @@ function Header() {
           </li>
                 </ul>
                 <div class='offcanvas__social'>
-                    <Link href='##'>
+                    <Link to='##'>
                         <i class='fab fa-facebook-f' />
                     </Link>
-                    <Link href='##'>
+                    <Link to='##'>
                         <i class='fab fa-instagram'></i>
                     </Link>
-                    <Link href='##'>
+                    <Link to='##'>
                         <i class='fab fa-whatsapp'></i>
                     </Link>
-                    <Link href='##'>
+                    <Link to='##'>
                         <i class='fab fa-linkedin-in'></i>
                     </Link>
                 </div>
@@ -121,16 +121,16 @@ function Header() {
                                 </ul>
                                 <div class='header__top__right'>
                                     <div class='header__top__right__social'>
-                                        <Link href='##'>
+                                        <Link to='##'>
                                             <span class='social_facebook'></span>
                                         </Link>
-                                        <Link href='##'>
+                                        <Link to='##'>
                                             <span class='social_twitter'></span>
                                         </Link>
-                                        <Link href='##'>
+                                        <Link to='##'>
                                             <span class='social_linkedin'></span>
                                         </Link>
-                                        <Link href='##'>
+                                        <Link to='##'>
                                             <span class='social_pinterest'></span>
                                         </Link>
                                     </div>
@@ -144,7 +144,7 @@ function Header() {
                         <div class='row'>
                             <div class='col-lg-3'>
                                 <div class='header__logo'>
-                                    <Link href='/'>
+                                    <Link to='/'>
                                         {/* <img src="./Freight-Broker _ Template_files/logo.webp" alt="main" /> */}
                                         <h3
                                             style={{
@@ -154,7 +154,7 @@ function Header() {
                                             }}
                                         >
                                             DELUX
-                      <span
+                                            <span
                                                 style={{
                                                     fontSize: '14px',
                                                     fontFamily: 'acquireLight',
@@ -175,19 +175,19 @@ function Header() {
                                 <nav class='header__menu mobile-menu'>
                                     <ul>
                                         <li class='active'>
-                                            <Link href=' asf#'>Home</Link>
+                                            <Link to=' asf#'>Home</Link>
                                         </li>
                                         <li>
-                                            <Link href='#z'>About</Link>
+                                            <Link to='#z'>About</Link>
                                         </li>
                                         <li>
-                                            <Link href='#z'>Services</Link>
+                                            <Link to='#z'>Services</Link>
                                         </li>
                                         <li>
-                                            <Link href='#a'>Branches</Link>
+                                            <Link to='/Branches'>Branches</Link>
                                         </li>
                                         <li>
-                                            <Link href='#a'>Contact Us</Link>
+                                            <Link to='#a'>Contact Us</Link>
                                         </li>
                                     </ul>
                                 </nav>

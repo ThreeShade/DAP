@@ -1,6 +1,6 @@
 {
   "name": "deluxeabroadcouriers",
-  "homepage": "http://deluxeabroadcouriers.com/",
+  "homepage": "http://deluxeabroadcouriers.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,7 +13,6 @@
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "react-ticker": "^1.2.2",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
