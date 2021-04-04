@@ -1,5 +1,7 @@
 import React from 'react'
+import ContactUs from '../../Components/ContactUs/ContactUs'
 import ImageTicker from '../../Components/ImageTicker/ImageTicker'
+import About from '../About/About'
 import '../Pages.css'
 function LandingPage() {
     return (
@@ -7,18 +9,38 @@ function LandingPage() {
             <a href='https://api.whatsapp.com/send/?phone=919841780434&text&app_absent=0' rel="noreferrer" target="_blank"><img src='./images/Flags/wp.gif' className='whatsapp-gif' alt="whatsapp-gif" /></a>
             <div className='hero-banner-section '>
                 <div className='hero-content'>
-                    <div className='hero-title'>Welcome to Delux Abroad Courier</div>
-                    <div className="hero-text">International And Domestic Courier Service</div>
+                    <div className='hero-title'>Welcome to Delux Abroad Couriers</div>
+                    <div className="hero-text">International And Domestic Courier Service.<br />We are as fast as air and as trustworthy as your heart.</div>
                     <div className='hero-btn-control'>
-                        <a href="https://api.whatsapp.com/send/?phone=919841780434&text&app_absent=0" target='_blank' rel="noreferrer"><div className='button service-btn'>Book Now</div></a>
-                        <div className='button'>Services</div>
+                        <a href="https://api.whatsapp.com/send/?phone=919841780434&text&app_absent=0" target='_blank' rel="noreferrer">
+                            <div className='button service-btn'>Book Now</div>
+                        </a>
+                        <div className='button ssf'>Services</div>
                     </div>
                 </div>
             </div>
+            <About />
+            <ImageTicker />
             <div className='features-section'>
                 deliver within 2 to 3 working days*
             </div>
-            <ImageTicker />
+            <div className='special-section'>
+                <div className='special-title container text-center my-2'><h3>OUR SPECIAL FEATURES</h3></div>
+                <div style={{ borderBottom: "1px solid #ffa62b", width: "15%" }} ></div>
+                <div className='container text-center p-3'>
+                    We are emerging as a top destination for
+                    ‘same-day’ transportation and are continuously
+                    serving our customers 24/7/365. We constantly expand
+                    our resources to cater to our customer expectation addressing their unique market needs.
+                </div>
+                <div className='special-row'>
+                    <div className='special-card'><i class="fas fa-dollar-sign sym"></i>Lowest Market Price </div>
+                    <div className='special-card'><i class="fas fa-shipping-fast sym"></i>Excess Baggage Packing </div>
+                    <div className='special-card'><i class="fas fa-box-open sym"></i>Customized Packing </div>
+                    <div className='special-card'><i class="fas fa-laptop-code sym"></i>Online Tracking </div>
+                </div>
+            </div>
+            <ContactUs />
         </>
     )
 }

@@ -189,7 +189,7 @@
 .slicknav_menu ::marker {
   text-decoration: none !important;
 }
-.offcanvas__logo{
+.offcanvas__logo {
   margin-bottom: 30px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1449px) {
@@ -316,7 +316,7 @@
     display: inline-block;
   }
   .offcanvas__social a {
-    font-size:20px;
+    font-size: 20px;
     color: #fff;
     display: inline-block;
     margin-right: 14px;
@@ -325,7 +325,7 @@
     margin-right: 0;
   }
   .header__logo {
-    padding: 40px 0;
+    padding: 20px 0;
     margin-top: 0;
   }
   .header__top {
@@ -349,7 +349,7 @@
     cursor: pointer;
     position: absolute;
     right: 40px;
-    top: 35px;
+    top: 20px;
     z-index: 9;
   }
 }

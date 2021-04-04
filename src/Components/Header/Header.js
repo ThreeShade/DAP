@@ -63,7 +63,7 @@ function Header() {
                                     <Link to='/'>Home</Link>
                                 </li>
                                 <li>
-                                    <Link to='/'>Services</Link>
+                                    <Link to='/Services'>Services</Link>
                                 </li>
                                 <li>
                                     <Link to='/'>About</Link>
@@ -181,7 +181,7 @@ function Header() {
                                             <Link to='#z'>About</Link>
                                         </li>
                                         <li>
-                                            <Link to='#z'>Services</Link>
+                                            <Link to='/Services'>Services</Link>
                                         </li>
                                         <li>
                                             <Link to='/Branches'>Branches</Link>

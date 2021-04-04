@@ -1,0 +1,52 @@
+.about-row {
+  display: flex;
+  margin: 4rem 0;
+}
+.about-title {
+  font-family: 'robotoRegular';
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 30px;
+  padding: 0.75rem 0;
+  letter-spacing: 2px;
+}
+.about-sub {
+  font-family: robotoRegular;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+}
+.about-text {
+  font-size: 0.81rem;
+  font-family: robotoRegular;
+  text-align: left;
+  padding: 0.5rem 0;
+  margin-bottom: 1.5rem;
+}
+.abt-icon {
+  font-size: 2.5rem;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  color: #ffa62b;
+  opacity: 0.75;
+}
+.about1 img {
+  height: 100%;
+  width: 100%;
+}
+.abt-col1 {
+  padding-left: 2.5rem;
+}
+@media only screen and (max-width: 992px) {
+  .about-row {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .abt-col1 {
+    padding-left: 1.5rem;
+  }
+  .about-row {
+    margin: 2rem 0;
+  }
+}

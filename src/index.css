@@ -1,6 +1,8 @@
-body {
+body,
+html {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -16,13 +18,15 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  border-radius: 3px;
+  border-radius: 1rem;
   align-items: center;
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 .button:hover {
   background-color: #ffa62b;
+  border: none;
 }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

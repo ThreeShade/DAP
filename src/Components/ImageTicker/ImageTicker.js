@@ -13,7 +13,7 @@ function ImageTicker() {
                         Services: International Courier, Domestic Services
                     </div>
                     <div className='country-block'>
-                        <marquee behavior="scroll" direction="left" vspace="25px" height="150px" scrollamount="12">
+                        <marquee behavior="scroll" direction="left" vspace="25px" scrollamount="12">
                             <div style={{ display: "flex" }}>
                                 <div className='country-grp'><img src='./images/Flags/usa.svg' alt='usa' className='c-flag' />USA</div>
                                 <div className='country-grp'><img src='./images/Flags/uk.svg' alt='uk' className='c-flag' />UK</div>

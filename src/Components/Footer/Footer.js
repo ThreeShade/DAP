@@ -18,8 +18,7 @@ function Footer() {
                                     </h3>
                                 </div>
                                 <p>
-                                    Consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua. Quis ipsum
-                                    suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                                    There’s nothing more precious than time, so save it.We are at your service, call us anyday, anytime.It’s our chance to prove ourselves, we won’t let you down.
                                 </p>
                             </div>
                         </div>

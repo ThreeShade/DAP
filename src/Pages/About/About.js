@@ -1,0 +1,55 @@
+import React from 'react'
+import './About.css'
+import AOS from 'aos'
+const finsf = () => {
+    return (
+        <>
+            <h4>ffjfj</h4>hi</>
+    )
+}
+function About() {
+    AOS.init();
+    return (
+        <>
+            <div>
+                <div className="about-row" >
+                    <div className='col-lg-6'>
+                        <div className='abt-col1' data-aos="fade-up" data-aos-duration="3000">
+                            <div className='about-title' >ABOUT</div>
+                            <div className='about-text col-10 text-justify'>
+                                With the world becoming more fast-paced than ever and globalization reaching its highest peak,
+                                courier services have benefitted the most. Marketing courier services require it to be available in
+                                all parts of the city so that businesses can approach it quickly to get the work done when they want to.
+                                Another most important thing is reliability.
+                            </div>
+                            <div style={{ display: "flex" }}>
+                                <i class="fas fa-shipping-fast abt-icon"></i>
+                                <div>
+                                    <div className='about-sub'>FAST DELIVERY</div>
+                                    <div className='about-text'>Just the speed your delivery needs.</div>
+                                </div>
+                            </div>
+                            <div style={{ display: "flex" }}>
+                                <i class="fas fa-user-shield abt-icon"></i>
+                                <div>
+                                    <div className='about-sub'>SECURED SERVICE</div>
+                                    <div className='about-text'>Trust is the best way to keep trust. We owe it.</div>
+                                </div>
+                            </div>
+                            <div style={{ display: "flex" }}>
+                                <i class="fas fa-route abt-icon"></i>
+                                <div>
+                                    <div className='about-sub'>WORLD WIDE SHIPPING</div>
+                                    <div className='about-text'>Connecting the world and closing the spaces.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-lg-6' data-aos="zoom-in" data-aos-duration="3000"><div className='about1'><img src='./images/about1.jpg' alt='about-img' /></div></div>
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default About
