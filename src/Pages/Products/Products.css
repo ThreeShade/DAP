@@ -1,0 +1,62 @@
+.image-grid-cover {
+  width: 100%;
+  background-size: cover;
+  min-height: 180px;
+  position: relative;
+  margin-bottom: 30px;
+  text-shadow: rgba(0, 0, 0, 0.8) 0 1px 0;
+  background-position: center;
+  border-radius: 4px;
+}
+.book {
+  background-image: url('./img/books.jpg');
+}
+.sweet {
+  background-image: url('./img/sweet.jpg');
+}
+.pickle {
+  background-image: url('./img/pickle.jpg');
+}
+.photo {
+  background-image: url('./img/frames.jpg');
+}
+.dresses {
+  background-image: url('./img/dress.jpg');
+}
+.vessels {
+  background-image: url('./img/vessels.jpg');
+}
+.podi {
+  background-image: url('./img/podi.jpg');
+}
+.snacks {
+  background-image: url('./img/snacks.jpg');
+}
+.medicine {
+  background-image: url('./img/medicine.jpg');
+}
+.image-grid-clickbox {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.267);
+}
+.cover-wrapper {
+  font-family: 'robotoRegular';
+  font-size: 1rem;
+  text-align: center;
+  display: block;
+  color: #fff;
+  text-shadow: rgba(0, 0, 0, 0.8) 0 1px 0;
+  z-index: 6;
+  position: relative;
+  top: 157px;
+  background-color: rgba(255, 255, 255, 0.288);
+  letter-spacing: 1.5px;
+}

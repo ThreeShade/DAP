@@ -44,7 +44,7 @@
 }
 @media only screen and (max-width: 600px) {
   .abt-col1 {
-    padding-left: 1.5rem;
+    padding: 0 0.5rem;
   }
   .about-row {
     margin: 2rem 0;

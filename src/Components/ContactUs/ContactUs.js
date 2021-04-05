@@ -4,7 +4,7 @@ function ContactUs() {
     return (
         <>
             <div className="cont-sec">
-                <div class="container contact-form">
+                <div class="container contact-form" id='contact'>
                     {/* <div class="contact-image">
                         <img src="./images/rc.png" alt="rocket_contact" />
                     </div> */}

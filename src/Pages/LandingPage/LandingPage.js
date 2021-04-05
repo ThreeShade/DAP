@@ -3,6 +3,7 @@ import ContactUs from '../../Components/ContactUs/ContactUs'
 import ImageTicker from '../../Components/ImageTicker/ImageTicker'
 import About from '../About/About'
 import '../Pages.css'
+import Products from '../Products/Products'
 function LandingPage() {
     return (
         <>
@@ -20,12 +21,13 @@ function LandingPage() {
                 </div>
             </div>
             <About />
+            <Products />
             <ImageTicker />
-            <div className='features-section'>
+            <div className='features-section' >
                 deliver within 2 to 3 working days*
             </div>
-            <div className='special-section'>
-                <div className='special-title container text-center my-2'><h3>OUR SPECIAL FEATURES</h3></div>
+            <div className='special-section' data-aos="fade-up" data-aos-duration="1500">
+                <div className='special-title container text-center my-3'><h3>OUR SPECIAL FEATURES</h3></div>
                 <div style={{ borderBottom: "1px solid #ffa62b", width: "15%" }} ></div>
                 <div className='container text-center p-3'>
                     We are emerging as a top destination for
@@ -39,6 +41,19 @@ function LandingPage() {
                     <div className='special-card'><i class="fas fa-box-open sym"></i>Customized Packing </div>
                     <div className='special-card'><i class="fas fa-laptop-code sym"></i>Online Tracking </div>
                 </div>
+            </div>
+            <div className='row'>
+                <div className='col-lg-6 d-flex flex-column justify-content-center' data-aos="fade-up" data-aos-duration="1500">
+                    <div className='special-title px-3'>
+                        <h3>GET THE FASTEST <span style={{ color: "#ffa62b" }}>PRODUCT DELEVERY</span></h3>
+                    </div>
+                    <div className=' text-justify p-3'>
+                        We are as fast as air and as trustworthy as your heart.
+                        We are at your service, call us anyday, anytime.
+                        Try us and see how good our services are.ry us and see how good our services are.
+                    </div>
+                </div>
+                <div className='col-lg-6' data-aos="zoom-in" data-aos-duration="1500"><div className='fast-del'><img src='./images/about1.jpg' alt='home-img' /></div></div>
             </div>
             <ContactUs />
         </>

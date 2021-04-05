@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link'
 function Header() {
     function changeClass() {
         document.querySelector('.offcanvas-menu-overlay').className =
@@ -63,16 +63,16 @@ function Header() {
                                     <Link to='/'>Home</Link>
                                 </li>
                                 <li>
-                                    <Link to='/Services'>Services</Link>
+                                    <Link to='/#services'>Services</Link>
                                 </li>
                                 <li>
-                                    <Link to='/'>About</Link>
+                                    <Link to='/#about'>About</Link>
                                 </li>
                                 <li>
                                     <Link to='/Branches'>Branches</Link>
                                 </li>
                                 <li>
-                                    <Link to='/'>Contacts Us</Link>
+                                    <Link to='/#contact'>Contacts Us</Link>
                                 </li>
                             </ul>
                         </nav>
@@ -88,16 +88,16 @@ function Header() {
           </li>
                 </ul>
                 <div class='offcanvas__social'>
-                    <Link to='##'>
+                    <Link to='/'>
                         <i class='fab fa-facebook-f' />
                     </Link>
-                    <Link to='##'>
+                    <Link to='/'>
                         <i class='fab fa-instagram'></i>
                     </Link>
-                    <Link to='##'>
+                    <Link to='/'>
                         <i class='fab fa-whatsapp'></i>
                     </Link>
-                    <Link to='##'>
+                    <Link to='/'>
                         <i class='fab fa-linkedin-in'></i>
                     </Link>
                 </div>
@@ -121,16 +121,16 @@ function Header() {
                                 </ul>
                                 <div class='header__top__right'>
                                     <div class='header__top__right__social'>
-                                        <Link to='##'>
+                                        <Link to='/'>
                                             <span class='social_facebook'></span>
                                         </Link>
-                                        <Link to='##'>
+                                        <Link to='/'>
                                             <span class='social_twitter'></span>
                                         </Link>
-                                        <Link to='##'>
+                                        <Link to='/'>
                                             <span class='social_linkedin'></span>
                                         </Link>
-                                        <Link to='##'>
+                                        <Link to='/'>
                                             <span class='social_pinterest'></span>
                                         </Link>
                                     </div>
@@ -175,19 +175,19 @@ function Header() {
                                 <nav class='header__menu mobile-menu'>
                                     <ul>
                                         <li class='active'>
-                                            <Link to=' asf#'>Home</Link>
+                                            <Link to='/'>Home</Link>
                                         </li>
                                         <li>
-                                            <Link to='#z'>About</Link>
+                                            <Link to='/#about' >About</Link>
                                         </li>
                                         <li>
-                                            <Link to='/Services'>Services</Link>
+                                            <Link to='/#services'>Services</Link>
                                         </li>
                                         <li>
                                             <Link to='/Branches'>Branches</Link>
                                         </li>
                                         <li>
-                                            <Link to='#a'>Contact Us</Link>
+                                            <Link to='/#contact'>Contact Us</Link>
                                         </li>
                                     </ul>
                                 </nav>

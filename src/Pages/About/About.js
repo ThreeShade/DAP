@@ -1,22 +1,16 @@
 import React from 'react'
 import './About.css'
 import AOS from 'aos'
-const finsf = () => {
-    return (
-        <>
-            <h4>ffjfj</h4>hi</>
-    )
-}
 function About() {
     AOS.init();
     return (
         <>
             <div>
-                <div className="about-row" >
+                <div className="about-row" id='about'>
                     <div className='col-lg-6'>
-                        <div className='abt-col1' data-aos="fade-up" data-aos-duration="3000">
+                        <div className='abt-col1' data-aos="fade-up" data-aos-duration="1500">
                             <div className='about-title' >ABOUT</div>
-                            <div className='about-text col-10 text-justify'>
+                            <div className='about-text col-12 text-justify'>
                                 With the world becoming more fast-paced than ever and globalization reaching its highest peak,
                                 courier services have benefitted the most. Marketing courier services require it to be available in
                                 all parts of the city so that businesses can approach it quickly to get the work done when they want to.
@@ -45,7 +39,7 @@ function About() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-6' data-aos="zoom-in" data-aos-duration="3000"><div className='about1'><img src='./images/about1.jpg' alt='about-img' /></div></div>
+                    <div className='col-lg-6' data-aos="zoom-in" data-aos-duration="1500"><div className='about1'><img src='./images/about1.jpg' alt='about-img' /></div></div>
                 </div>
             </div>
         </>

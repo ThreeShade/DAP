@@ -290,6 +290,10 @@
   font-weight: bold;
   font-size: 30px;
 }
+.fast-del img {
+  width: 100%;
+  height: 100%;
+}
 .how-section1 .subheading {
   color: #3931af;
   font-size: 20px;
@@ -341,7 +345,7 @@
     height: 85%;
   }
   .features-section {
-    height: 10vh;
+    height: 8vh;
     font-size: 0.75rem;
   }
   .special-card {
