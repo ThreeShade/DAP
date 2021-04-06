@@ -28,7 +28,7 @@ function Header() {
                                 display: 'flex',
                             }}
                         >
-                            DELUX{' '}
+                            DELUX&nbsp;
                             <span style={{ color: 'white', display: 'flex' }}>
                                 Abroad Courier
               </span>
@@ -58,20 +58,20 @@ function Header() {
                             style={{ display: 'none' }}
                         >
                             <ul style={{ listStyle: 'none' }}>
-                                <li style={{ color: '#FFA62B', marginBottom: '10px' }}>MENU</li>
-                                <li class='active'>
+                                <li style={{ color: '#FFA62B' }}>MENU</li>
+                                <li class='active py-1'>
                                     <Link to='/'>Home</Link>
                                 </li>
-                                <li>
+                                <li className='py-1'>
                                     <Link to='/#services'>Services</Link>
                                 </li>
-                                <li>
+                                <li className='py-1'>
                                     <Link to='/#about'>About</Link>
                                 </li>
-                                <li>
+                                <li className='py-1'>
                                     <Link to='/Branches'>Branches</Link>
                                 </li>
-                                <li>
+                                <li className='py-1'>
                                     <Link to='/#contact'>Contacts Us</Link>
                                 </li>
                             </ul>
@@ -80,7 +80,7 @@ function Header() {
                 </div>
                 <ul class='offcanvas__widget'>
                     <li>
-                        <i class='fas fa-phone'></i> 044-4850 0102
+                        <i class='fas fa-phone mr-1'></i> 044-4850 0102
           </li>
                     <li>
                         <span class='icon_pin'></span> 7, Ramakrishna Mutt Rd, Venkatesa
@@ -89,7 +89,7 @@ function Header() {
                 </ul>
                 <div class='offcanvas__social'>
                     <Link to='/'>
-                        <i class='fab fa-facebook-f' />
+                        <i class='fab fa-facebook-f ' />
                     </Link>
                     <Link to='/'>
                         <i class='fab fa-instagram'></i>

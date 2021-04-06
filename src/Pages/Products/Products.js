@@ -11,54 +11,55 @@ function Products() {
                     We deliver your cargo, whenever you need it and wherever you need it.we Deliver Your package with love
                     </div>
                 <div class="row">
-                    <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+                    <div class="col-12 col-sm-6 col-md-4 image-grid-item" data-aos="fade-right" data-aos-duration="1000">
                         <div class="image-grid-cover book">
                             <span class="image-grid-clickbox text-uppercase"></span>
                             <span class="cover-wrapper text-uppercase">BOOKS</span>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+                    <div class="col-12 col-sm-6 col-md-4 image-grid-item" data-aos="fade-left" data-aos-duration="1000">
                         <div class="entry-cover image-grid-cover has-image sweet">
                             <span class="image-grid-clickbox"></span>
                             <span class="cover-wrapper text-uppercase">sweets</span>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+                    <div class="col-12 col-sm-6 col-md-4 image-grid-item" data-aos="fade-right" data-aos-duration="1000">
                         <div class="entry-cover image-grid-cover has-image pickle">
                             <span class="image-grid-clickbox"></span>
                             <span class="cover-wrapper text-uppercase ">pickle</span>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+                    <div class="col-12 col-sm-6 col-md-4 image-grid-item" data-aos="fade-left" data-aos-duration="1000">
                         <div class="entry-cover image-grid-cover has-image photo">
                             <span class="image-grid-clickbox"></span>
                             <span class="cover-wrapper text-uppercase">photo frame</span>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+                    <div class="col-12 col-sm-6 col-md-4 image-grid-item" data-aos="fade-right" data-aos-duration="1000">
                         <div class="entry-cover image-grid-cover has-image dresses">
                             <span class="image-grid-clickbox"></span>
                             <span class="cover-wrapper text-uppercase">dresses</span>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+                    <div class="col-12 col-sm-6 col-md-4 image-grid-item" data-aos="fade-left" data-aos-duration="1000">
                         <div class="entry-cover image-grid-cover has-image vessels">
                             <span class="image-grid-clickbox"></span>
                             <span class="cover-wrapper text-uppercase">vessels</span>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+                    <div class="col-12 col-sm-6 col-md-4 image-grid-item" data-aos="fade-right" data-aos-duration="1000">
                         <div class="image-grid-cover podi">
                             <span class="image-grid-clickbox text-uppercase"></span>
                             <span class="cover-wrapper text-uppercase">podi</span>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+                    <div class="col-12 col-sm-6 col-md-4 image-grid-item" data-aos="fade-left" data-aos-duration="1000">
                         <div class="image-grid-cover podi snacks">
                             <span class="image-grid-clickbox text-uppercase"></span>
                             <span class="cover-wrapper text-uppercase">snacks</span>
                         </div>
-                    </div><div class="col-12 col-sm-6 col-md-4 image-grid-item">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 image-grid-item" data-aos="fade-right" data-aos-duration="1000">
                         <div class="image-grid-cover podi medicine">
                             <span class="image-grid-clickbox text-uppercase"></span>
                             <span class="cover-wrapper text-uppercase">medicine</span>
