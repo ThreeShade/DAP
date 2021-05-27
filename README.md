@@ -1,12 +1,15 @@
-# Delux Abroad Packers![logo]()
+# ![logo](https://github.com/ThreeShade/DAP/blob/master/public/favicon.png)  Delux Abroad Packers
 
-### **This project created using**
-#### [Reactjs](https://reactjs.org/)
-#### CSS
-#### HTML
-#### JS
+### **This Project Created Using** [Reactjs](https://reactjs.org/) 
 
-## Available Scripts
+
+### List Of External Libraries Used :open_file_folder:
+
+* #### [AOS]()
+* #### [AOS]()
+* #### [AOS]()
+* #### [AOS]()
+## Scripts 
 
 In the project directory, you can run:
 
@@ -70,5 +73,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
