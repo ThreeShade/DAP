@@ -1,58 +1,81 @@
 import React from 'react'
-import '../Pages.css'
+import './Services.css'
+import { Helmet } from 'react-helmet'
 function Services() {
     return (
         <>
-            <div class="how-section1">
-                <div class="row">
-                    <div class="col-md-6 how-img">
-                        <img src="https://image.ibb.co/dDW27U/Work_Section2_freelance_img1.png" class="rounded-circle img-fluid" alt="" />
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Deluxe Abroad Packers-Services-Products Export To Abroad ToSweets|Books|Dress|Pickle|Spices</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+                <meta name="description" content="Deluxe Abroad Packers Export Products Like Pickles,Dresses,Spices,Books,Frames,Sweets,Vessels,Medicine,Snacks" />
+            </Helmet>
+            <section className="services pt-50 pb-50" id="services">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-xl-6 mx-auto text-center">
+                            <div className="section-title mb-100">
+                                <h4>services</h4>
+                                <p className='text-capitalize'>
+                                    we provide best abroad package services in chennai.with our more years of experience ,we deliver the packages ontime.
+                                    we export the packages more than 10 countries!
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <h4>Find rewarding projects</h4>
-                        <h4 class="subheading">GetLance is a great place to find more clients, and to run and grow your own freelance business.</h4>
-                        <p class="text-muted">Freedom to work on ideal projects. On GetLance, you run your own business and choose your own clients and projects. Just complete your profile and we’ll highlight ideal jobs. Also search projects, and respond to client invitations.
-                        Wide variety and high pay. Clients are now posting jobs in hundreds of skill categories, paying top price for great work.
-                                            More and more success. The greater the success you have on projects, the more likely you are to get hired by clients that use GetLance.</p>
+                    <div className="row">
+                        <div className="col-lg-4 col-md-6">
+                            {/* <!-- Single Service --> */}
+                            <div className="single-service">
+                                <img src="/images/Icons/international.png" alt="CARGO SERVICE" className='service-pg-icons' />
+                                <h4>CARGO SERVICE </h4>
+                                <p>We ship the packages to abroad through air lines with the famous freight service providers and excellent service</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            {/* <!-- Single Service --> */}
+                            <div className="single-service">
+                                <img src="/images/Icons/box2.png" alt="CARGO SERVICE" className='service-pg-icons' />
+                                <h4>SAFE DELIVERY</h4>
+                                <p>deluxe abroad packers follows the security protocols and ensures package safety security measures</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            {/* <!-- Single Service --> */}
+                            <div className="single-service">
+                                <img src="/images/Icons/service.png" alt="SERVICE PACKAGES" className='service-pg-icons' />
+                                <h4>SERVICE PACKAGES</h4>
+                                <p>Customized service packages to fit Also specific needs we deliver various types of packages like dress,books,pickles. </p>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            {/* <!-- Single Service --> */}
+                            <div className="single-service">
+                                <img src="/images/Icons/fast.png" alt="SERVICE PACKAGES" className='service-pg-icons' />
+                                <h4>BUSINESS EXPRESS</h4>
+                                <p> multi-module product that involves both air and surface network. The delivery happens in 24 to 96 hour transit time</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            {/* <!-- Single Service --> */}
+                            <div className="single-service">
+                                <img src="/images/Icons/box.png" alt="QUALITY SERVICE" className='service-pg-icons' />
+                                <h4>QUALITY SERVICE</h4>
+                                <p>Delight customers with quality service by setting new trends through innovation and technology</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            {/* <!-- Single Service --> */}
+                            <div className="single-service">
+                                <img src="/images/Icons/icon6.png" alt="Door Step Delivery" className='service-pg-icons' />
+                                <h4>DOOR DELIVERIES</h4>
+                                <p>we provide door step pickup and delivery of your order.customer satisfaction is our main goal!</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <h4>Get hired quickly</h4>
-                        <h4 class="subheading">GetLance makes it easy to connect with clients and begin doing great work.</h4>
-                        <p class="text-muted">Streamlined hiring. GetLance’s sophisticated algorithms highlight projects you’re a great fit for.
-                        Top Rated and Rising Talent programs. Enjoy higher visibility with the added status of prestigious programs.
-                                            Do substantial work with top clients. GetLance pricing encourages freelancers to use GetLance for repeat relationships with their clients.</p>
-                    </div>
-                    <div class="col-md-6 how-img">
-                        <img src="https://image.ibb.co/cHgKnU/Work_Section2_freelance_img2.png" class="rounded-circle img-fluid" alt="" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 how-img">
-                        <img src="https://image.ibb.co/ctSLu9/Work_Section2_freelance_img3.png" class="rounded-circle img-fluid" alt="" />
-                    </div>
-                    <div class="col-md-6">
-                        <h4>Work efficiently, effectively.</h4>
-                        <h4 class="subheading">With GetLance, you have the freedom and flexibility to control when, where, and how you work. Each project includes an online workspace shared by you and your client, allowing you to:</h4>
-                        <p class="text-muted">Send and receive files. Deliver digital assets in a secure environment.
-                        Share feedback in real time. Use GetLance Messages to communicate via text, chat, or video.
-                                            Use our mobile app. Many features can be accessed on your mobile phone when on the go.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <h4>Get paid on time</h4>
-                        <h4 class="subheading">All projects include GetLance Payment Protection — helping ensure that you get paid for all work successfully completed through the freelancing website.</h4>
-                        <p class="text-muted">All invoices and payments happen through GetLance. Count on a simple and streamlined process.
-                        Hourly and fixed-price projects. For hourly work, submit timesheets through GetLance. For fixed-price jobs, set milestones and funds are released via GetLance escrow features.
-                                            Multiple payment options. Choose a payment method that works best for you, from direct deposit or PayPal to wire transfer and more.</p>
-                    </div>
-                    <div class="col-md-6 how-img">
-                        <img src="https://image.ibb.co/gQ9iE9/Work_Section2_freelance_img4.png" class="rounded-circle img-fluid" alt="" />
-                    </div>
-                </div>
-            </div>
+            </section>
+
         </>
     )
 }

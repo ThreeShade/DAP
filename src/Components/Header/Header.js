@@ -14,12 +14,12 @@ function Header() {
     }
     return (
         <>
-            <div class='offcanvas-menu-overlay' onClick={resetClass}></div>
-            <div class='offcanvas-menu-wrapper' id='aw2' onClick={resetClass}>
+            <div className='offcanvas-menu-overlay' onClick={resetClass}></div>
+            <div className='offcanvas-menu-wrapper' id='aw2' onClick={resetClass}>
                 {/* <div class="offcanvas__search__option">
                     <span class="icon_search search-switch"></span>
                 </div> */}
-                <div class='offcanvas__logo'>
+                <div className='offcanvas__logo'>
                     <Link to='/'>
                         <h4
                             style={{
@@ -36,34 +36,34 @@ function Header() {
                     </Link>
                 </div>
                 <div id='mobile-menu-wrap'>
-                    <div class='slicknav_menu'>
+                    <div className='slicknav_menu'>
                         <Link
                             to='/'
                             aria-haspopup='true'
                             role='button'
-                            tabindex='0'
-                            class='slicknav_btn slicknav_collapsed'
+                            tabIndex='0'
+                            className='slicknav_btn slicknav_collapsed'
                         >
-                            <span class='slicknav_menutxt'>MENU</span>
-                            <span class='slicknav_icon'>
-                                <span class='slicknav_icon-bar'></span>
-                                <span class='slicknav_icon-bar'></span>
-                                <span class='slicknav_icon-bar'></span>
+                            <span className='slicknav_menutxt'>MENU</span>
+                            <span className='slicknav_icon'>
+                                <span className='slicknav_icon-bar'></span>
+                                <span className='slicknav_icon-bar'></span>
+                                <span className='slicknav_icon-bar'></span>
                             </span>
                         </Link>
                         <nav
-                            class='slicknav_nav slicknav_hidden'
+                            className='slicknav_nav slicknav_hidden'
                             aria-hidden='true'
                             role='menu'
                             style={{ display: 'none' }}
                         >
                             <ul style={{ listStyle: 'none' }}>
                                 <li style={{ color: '#FFA62B' }}>MENU</li>
-                                <li class='active py-1'>
+                                <li className='active py-1'>
                                     <Link to='/'>Home</Link>
                                 </li>
                                 <li className='py-1'>
-                                    <Link to='/#services'>Services</Link>
+                                    <Link to='/services'>Services</Link>
                                 </li>
                                 <li className='py-1'>
                                     <Link to='/#about'>About</Link>
@@ -78,60 +78,60 @@ function Header() {
                         </nav>
                     </div>
                 </div>
-                <ul class='offcanvas__widget'>
+                <ul className='offcanvas__widget'>
                     <li>
-                        <i class='fas fa-phone mr-1'></i> 044-4850 0102
-          </li>
+                        <i className='fas fa-phone mr-1'></i> 044-4850 0102
+                     </li>
                     <li>
-                        <span class='icon_pin'></span> 7, Ramakrishna Mutt Rd, Venkatesa
-            Agraharam, Mylapore, Chennai, Tamil Nadu 600004
-          </li>
+                        <span className='icon_pin'></span> 7, Ramakrishna Mutt Rd, Venkatesa
+                            Agraharam, Mylapore, Chennai, Tamil Nadu 600004
+                    </li>
                 </ul>
-                <div class='offcanvas__social'>
+                <div className='offcanvas__social'>
                     <Link to='/'>
-                        <i class='fab fa-facebook-f ' />
+                        <i className='fab fa-facebook-f ' />
                     </Link>
                     <Link to='/'>
-                        <i class='fab fa-instagram'></i>
+                        <i className='fab fa-instagram'></i>
                     </Link>
                     <Link to='/'>
-                        <i class='fab fa-whatsapp'></i>
+                        <i className='fab fa-whatsapp'></i>
                     </Link>
                     <Link to='/'>
-                        <i class='fab fa-linkedin-in'></i>
+                        <i className='fab fa-linkedin-in'></i>
                     </Link>
                 </div>
             </div>
 
-            <header class='header'>
-                <div class='header__top'>
-                    <div class='container'>
-                        <div class='row'>
-                            <div class='col-lg-9 offset-lg-3'>
-                                <ul class='header__top__widget'>
+            <header className='header'>
+                <div className='header__top'>
+                    <div className='container'>
+                        <div className='row'>
+                            <div className='col-lg-9 offset-lg-3'>
+                                <ul className='header__top__widget'>
                                     &nbsp;&nbsp;&nbsp;
                   <li>
-                                        <i class='fas fa-phone' /> &nbsp; 044-4850 0102
+                                        <i className='fas fa-phone' /> &nbsp; 044-4850 0102
                   </li>{' '}
                   &nbsp; &nbsp;
                   <li>
-                                        <i class='fas fa-map-marker-alt'></i> &nbsp; 7, Ramakrishna
+                                        <i className='fas fa-map-marker-alt'></i> &nbsp; 7, Ramakrishna
                     Mutt Rd, Venkatesa Agraharam, Mylapore, Chennai-600004
                   </li>
                                 </ul>
-                                <div class='header__top__right'>
-                                    <div class='header__top__right__social'>
+                                <div className='header__top__right'>
+                                    <div className='header__top__right__social'>
                                         <Link to='/'>
-                                            <span class='social_facebook'></span>
+                                            <span className='social_facebook'></span>
                                         </Link>
                                         <Link to='/'>
-                                            <span class='social_twitter'></span>
+                                            <span className='social_twitter'></span>
                                         </Link>
                                         <Link to='/'>
-                                            <span class='social_linkedin'></span>
+                                            <span className='social_linkedin'></span>
                                         </Link>
                                         <Link to='/'>
-                                            <span class='social_pinterest'></span>
+                                            <span className='social_pinterest'></span>
                                         </Link>
                                     </div>
                                 </div>
@@ -139,11 +139,11 @@ function Header() {
                         </div>
                     </div>
                 </div>
-                <div class='header__options'>
-                    <div class='container'>
-                        <div class='row'>
-                            <div class='col-lg-3'>
-                                <div class='header__logo'>
+                <div className='header__options'>
+                    <div className='container'>
+                        <div className='row'>
+                            <div className='col-lg-3'>
+                                <div className='header__logo'>
                                     <Link to='/'>
                                         {/* <img src="./Freight-Broker _ Template_files/logo.webp" alt="main" /> */}
                                         <h3
@@ -171,20 +171,20 @@ function Header() {
                                     </Link>
                                 </div>
                             </div>
-                            <div class='col-lg-9'>
-                                <nav class='header__menu mobile-menu'>
+                            <div className='col-lg-9'>
+                                <nav className='header__menu mobile-menu'>
                                     <ul>
-                                        <li class='active'>
+                                        <li className='active'>
                                             <Link to='/'>Home</Link>
                                         </li>
                                         <li>
                                             <Link to='/#about' >About</Link>
                                         </li>
                                         <li>
-                                            <Link to='/#services'>Services</Link>
+                                            <Link to='/services'>Services</Link>
                                         </li>
                                         <li>
-                                            <Link to='/Branches'>Branches</Link>
+                                            <Link to='/branches'>Branches</Link>
                                         </li>
                                         <li>
                                             <Link to='/#contact'>Contact Us</Link>
@@ -192,15 +192,15 @@ function Header() {
                                     </ul>
                                 </nav>
                             </div>
-                            {/* <div class="col-lg-2">
-                                <div class="search__option">
-                                    <span class="icon_search search-switch"></span>
+                            {/* <div className="col-lg-2">
+                                <div className="search__option">
+                                    <span className="icon_search search-switch"></span>
                                 </div>
                             </div> */}
                         </div>
                     </div>
-                    <div class='canvas__open' onClick={changeClass}>
-                        <i class='fas fa-bars'></i>
+                    <div className='canvas__open' onClick={changeClass}>
+                        <i className='fas fa-bars'></i>
                     </div>
                 </div>
             </header>

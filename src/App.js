@@ -1,24 +1,27 @@
 import React from 'react'
+import { Suspense } from 'react';
+import { Route, Switch } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header/Header'
 import Footer from './Components/Footer/Footer';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import LandingPage from './Pages/LandingPage/LandingPage';
-import Branches from './Pages/Branches/Branches';
-import Services from './Pages/Services/Services';
+import PreLoader from './Utilities/PreLoader';
+
+const Branches = React.lazy(() => import('./Pages/Branches/Branches'))
+const Services = React.lazy(() => import('./Pages/Services/Services'))
+const LandingPage = React.lazy(() => import('./Pages/LandingPage/LandingPage'))
 
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <Suspense fallback={<PreLoader />}>
         <Header />
         <Switch>
           <Route path="/" render={() => (<LandingPage />)} exact />
-          <Route path="/Branches" render={() => (<Branches />)} />
+          <Route path="/Branches" component={Branches} />
           <Route path='/Services' component={Services} />
         </Switch>
         <Footer />
-      </BrowserRouter>
+      </Suspense>
     </>
   )
 }

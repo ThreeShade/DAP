@@ -25,14 +25,14 @@
 .address-title2 {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 1rem;
   padding-bottom: 3px;
   font-family: 'robotoRegular';
 }
 .address-text {
   text-transform: capitalize;
   font-family: robotoLight;
-  font-size: 14px;
+  font-size: 1rem;
   word-wrap: break-word;
   padding: 3px 0px;
 }

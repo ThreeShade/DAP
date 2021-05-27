@@ -9,31 +9,31 @@
   border-radius: 4px;
 }
 .book {
-  background-image: url('./img/books.jpg');
+  background-image: url('./img/books.webp');
 }
 .sweet {
-  background-image: url('./img/sweet.jpg');
+  background-image: url('./img/sweet.webp');
 }
 .pickle {
-  background-image: url('./img/pickle.jpg');
+  background-image: url('./img/pickle.webp');
 }
 .photo {
-  background-image: url('./img/frames.jpg');
+  background-image: url('./img/frames.webp');
 }
 .dresses {
-  background-image: url('./img/dress.jpg');
+  background-image: url('./img/dress.webp');
 }
 .vessels {
-  background-image: url('./img/vessels.jpg');
+  background-image: url('./img/vessels.webp');
 }
 .podi {
-  background-image: url('./img/podi.jpg');
+  background-image: url('./img/podi.webp');
 }
 .snacks {
-  background-image: url('./img/snacks.jpg');
+  background-image: url('./img/snacks.webp');
 }
 .medicine {
-  background-image: url('./img/medicine.jpg');
+  background-image: url('./img/medicine.webp');
 }
 .image-grid-clickbox {
   position: absolute;
