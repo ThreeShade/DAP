@@ -1,14 +1,18 @@
-# ![logo](https://github.com/ThreeShade/DAP/blob/master/public/favicon.png)  Delux Abroad Packers 
+# ![logo](https://github.com/ThreeShade/DAP/blob/master/public/favicon.png) Delux Abroad Packers
 
-### **This Project Developed Using** :six_pointed_star: [Reactjs](https://reactjs.org/) 
+### **This Project Developed Using** :six_pointed_star: [Reactjs](https://reactjs.org/)
 
-### :open_file_folder: List Of External Libraries Used  
+### :open_file_folder: List Of External Libraries Used
 
 1. #### [AOS](https://michalsnik.github.io/aos/)
+
 2. #### [Bootstrap](https://getbootstrap.com/)
+
 3. #### [React Bootstrap](https://react-bootstrap.github.io/)
+
 4. #### [React Helmet](https://www.npmjs.com/package/react-helmet)
-## Scripts :hotsprings:
+
+## Scripts :hotsprings
 
 In the project directory, you can run:
 
@@ -16,7 +20,6 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
 
 ### `npm test`
 
@@ -36,5 +39,3 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-
