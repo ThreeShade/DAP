@@ -12,7 +12,7 @@
 
 4. #### [React Helmet](https://www.npmjs.com/package/react-helmet)
 
-## Scripts :hotsprings
+## Scripts :hotsprings:
 
 In the project directory, you can run:
 
